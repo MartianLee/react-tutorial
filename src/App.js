@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Hello from './Hello';
 import Todolist from './Todolist';
+import FlavorForm from './FlavorForm';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       </header>
       <Hello />
       <Todolist />
+      <FlavorForm />
     </div>
   );
 }

@@ -24,10 +24,9 @@ export default class TodolList extends React.Component {
   writeTodoList()
   {
     console.log(this);
-    console.log(this.state);
-    // const newList = this.state.todoList.concat(value);
     this.setState(prevState => ({
-      todoList: prevState.todoList.concat(prevState.newList)
+      todoList: prevState.todoList.concat(prevState.newList),
+      newList: ''
     }));
   }
   
