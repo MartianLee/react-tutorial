@@ -4,6 +4,7 @@ import './App.css';
 import Hello from './Hello';
 import Todolist from './Todolist';
 import FlavorForm from './FlavorForm';
+import Reservation from './Reservation';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Hello />
       <Todolist />
       <FlavorForm />
+      <Reservation />
     </div>
   );
 }
